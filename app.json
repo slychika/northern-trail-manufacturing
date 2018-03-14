@@ -18,5 +18,9 @@
         "description": "Salesforce password for your integration user",
         "value":""
     }
+    "SF_USER_SECURITY_TOKEN": {
+        "description": "Salesforce security token for your integration user",
+        "value":""
+  }
   }
 }
