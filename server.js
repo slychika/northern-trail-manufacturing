@@ -103,7 +103,7 @@ let org = nforce.createConnection({
     autoRefresh: true
 });
 
-org.authenticate({username: SF_USER_NAME, password: SF_USER_PASSWORD}, err => {
+org.authenticate({username: SF_USER_NAME, password: SF_USER_PASSWORD, securityToken: SF_USER_SECURITY_TOKEN}, err => {
     if (err) {
         console.error("Salesforce authentication error");
         console.error(err);
