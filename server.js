@@ -93,6 +93,7 @@ let SF_CLIENT_ID = process.env.SF_CLIENT_ID;
 let SF_CLIENT_SECRET = process.env.SF_CLIENT_SECRET;
 let SF_USER_NAME = process.env.SF_USER_NAME;
 let SF_USER_PASSWORD = process.env.SF_USER_PASSWORD;
+let SF_USER_SECURITY_TOKEN = process.env.SF_USER_SECURITY_TOKEN;
 
 let org = nforce.createConnection({
     clientId: SF_CLIENT_ID,
